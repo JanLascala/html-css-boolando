@@ -80,7 +80,15 @@ header {
 
     .overlay>.detail {
         position: absolute;
+        display: block;
     }
+
+    .photo>.image:hover {
+        display: none;
+    }
+
+
+
 
 
 
