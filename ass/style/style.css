@@ -27,6 +27,21 @@ header {
     align-items: center;
     justify-content: space-between;
 
+    a {
+        color: white;
+        display: inline;
+        text-decoration: none;
+        padding: 1rem;
+    }
+
+    a:hover {
+        text-decoration: underline;
+    }
+
+    .boolean-logo {
+        max-height: 40px;
+    }
+
 }
 
 /*main*/
