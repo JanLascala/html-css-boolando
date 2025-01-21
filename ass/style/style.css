@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    border-style: dashed;
 }
 
 :root {
@@ -12,15 +13,58 @@
     --bl-lighter-color: #90877f;
 }
 
-.debug {
-    border-style: dashed;
-}
 
 /*header*/
 
 header {
     background-color: var(--bl-primary-color);
     min-height: 80px;
+    width: 100%;
+    padding: 1rem;
+    position: fixed;
     display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
 
+}
+
+/*main*/
+
+.container {
+    padding-top: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+
+
+    div {
+        min-height: 650px;
+        min-width: 400px;
+        background-color: #90877f;
+    }
+}
+
+.notes {
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    padding: 0 5rem;
+
+}
+
+/*footer*/
+
+footer {
+    background-color: var(--bl-secondary-color);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-between;
+    padding: 0 5rem;
+
+    div {
+        color: white;
+    }
 }
