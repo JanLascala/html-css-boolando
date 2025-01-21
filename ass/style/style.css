@@ -1,0 +1,26 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --bl-primary-color: #ff6900;
+    --bl-secondary-color: #1a1a1a;
+    --bl-accent-color: #ff0000;
+    --bl-detail-color: #008000;
+    --bl-lighter-color: #90877f;
+}
+
+.debug {
+    border-style: dashed;
+}
+
+/*header*/
+
+header {
+    background-color: var(--bl-primary-color);
+    min-height: 80px;
+    display: flex;
+
+}
