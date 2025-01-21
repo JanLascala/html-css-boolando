@@ -42,9 +42,19 @@ header {
         max-height: 40px;
     }
 
+    i {
+        color: white;
+        padding: 1rem;
+    }
+
 }
 
 /*main*/
+
+.img-size {
+    height: 924px;
+    width: 640px;
+}
 
 .container {
     padding-top: 150px;
@@ -52,6 +62,14 @@ header {
     justify-content: center;
     align-items: center;
     justify-content: space-around;
+
+    .img {
+        position: relative;
+
+        :hover {
+            background-image: url(../img/boolando_images/1b.webp);
+        }
+    }
 
 
     div {
