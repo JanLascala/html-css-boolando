@@ -13,23 +13,22 @@
     --bl-lighter-color: #90877f;
 }
 
-body {
-    height: 100%;
-}
+
 
 
 /*header*/
 
 header {
     background-color: var(--bl-primary-color);
-    min-height: 80px;
+    top: 0;
+    left: 0;
     width: 100%;
     padding: 1rem;
     position: fixed;
     display: flex;
-    justify-content: center;
     align-items: center;
     justify-content: space-between;
+    z-index: 2;
 
     a {
         color: white;
@@ -61,18 +60,32 @@ header {
 }
 
 .container {
+    width: 80%;
+    margin: auto;
     padding-top: 150px;
     display: flex;
-    justify-content: center;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-between;
 
 }
 
 .box {
-    height: 924px;
-    width: 640px;
+
+    width: 33, 333%;
     position: relative;
+
+    .photo {
+        position: relative;
+    }
+
+    .detail {
+        position: absolute;
+        display: none;
+    }
+
+    .img:hover {
+        display: none;
+    }
 
     i {
         font-size: 40px;
@@ -84,12 +97,28 @@ header {
     }
 
     .sconto {
-        height: 30;
-        width: 60;
+        padding: 0.5rem;
         background-color: var(--bl-accent-color);
         position: absolute;
-        bottom: 0;
+        bottom: 10%;
         left: 0;
+    }
+
+    .sust {
+        padding: 0.5rem;
+        background-color: var(--bl-detail-color);
+        position: absolute;
+        bottom: 10%;
+        left: 20%;
+    }
+
+    .price {
+        color: var(--bl-accent-color);
+        font-size: 14px;
+    }
+
+    .brand {
+        color: var(--bl-lighter-color);
     }
 }
 
