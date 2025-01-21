@@ -63,29 +63,39 @@ header {
     align-items: center;
     justify-content: space-around;
 
-    .img {
-        position: relative;
+}
 
-        :hover {
-            background-image: url(../img/boolando_images/1b.webp);
-        }
+.box {
+    height: 924px;
+    width: 640px;
+    position: relative;
+
+    i {
+        font-size: 40px;
+        padding: 1rem;
+        background-color: white;
+        position: absolute;
+        top: 0;
+        right: 0;
     }
 
-
-    div {
-        min-height: 650px;
-        min-width: 400px;
-        background-color: #90877f;
+    .sconto {
+        height: 30;
+        width: 60;
+        background-color: var(--bl-accent-color);
+        position: absolute;
+        bottom: 0;
+        left: 0;
     }
 }
 
-.notes {
-    display: flex;
-    justify-content: center;
-    justify-content: space-between;
-    padding: 0 5rem;
 
-}
+
+
+
+
+
+
 
 /*footer*/
 
