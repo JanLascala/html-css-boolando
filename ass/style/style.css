@@ -74,17 +74,19 @@ header {
     width: 33, 333%;
     position: relative;
 
-    .box:hover {
+    .detail {
         display: none;
-
     }
 
-    .overlay>.detail {
+    .photo:hover>.image {
+        /* position: absolute;*/
+        display: none;
+    }
+
+    .photo:hover>.overlay {
+        /*  position: relative;*/
         display: block;
     }
-
-
-
 
 
 
