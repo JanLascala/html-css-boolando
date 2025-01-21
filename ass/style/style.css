@@ -13,6 +13,10 @@
     --bl-lighter-color: #90877f;
 }
 
+body {
+    height: 100%;
+}
+
 
 /*header*/
 
